@@ -4,7 +4,7 @@ from sklearn.neighbors import NearestNeighbors
 from sklearn.model_selection import train_test_split
 
 # Load dataset
-df = pd.read_excel("cosmetic_cleaned.xlsx")
+df = pd.read_excel('cosmetic_cleaned.xlsx')
 
 # Set color palette
 color_palette = ["#000000", "#808080", "#ffffff"]
